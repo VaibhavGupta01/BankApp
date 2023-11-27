@@ -1,0 +1,9 @@
+POST http://localhost:8090/transactions?reference=WardrobeShopping&amount=1000
+Cache-Control: no-cache
+
+###
+POST http://localhost:8090/transactions?reference=Dinner&amount=1000
+Cache-Control: no-cache
+
+###
+GET http://localhost:8090/transactions
